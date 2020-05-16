@@ -10,6 +10,11 @@ public class PrototypeApplication {
 
         QueuePrototypeEnum.B.push("one-b");
 
+        QueuePrototype.instanceOf(0).push("Szymon");
+        QueuePrototype.instanceOf(0).push("Jan");
+
+        QueuePrototype.instanceOf(0).push("Anna");
+        QueuePrototype.instanceOf(0).push("Karolina");
 
 
     }
